@@ -46,11 +46,11 @@ He also comes with an SMS interface which allows you to inject content into Slac
 ##Let it rip!
 
     npm install
-    node slack-stuart.js
+    node bin/slack-stuart.js
 
 In your browser, visit:
 
-    http://localhost:8087
+    http://your_server_name:8087
 
 ##Plugins
 Stuart is a pretty dumb by himself. But his future is bright. And it's in your hands. Plugin definitions are found in <b>plugins/plugins.json</b>.

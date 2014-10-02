@@ -46,7 +46,14 @@
                 "greeting"    : "Welcome to Greg's conference room",
                 "inbound_numbers" : ["+1FIXME", "+1FIXME-OR-DELETE"]
 			}
-	    }
+	    },
+        "german": {
+            "active": true,
+            "name": "Translate numbers into german",
+            "hook": "./plugins/slash/german",
+            "author": "mic",
+            "config": {}
+        }
 	},
 
 	"cron" : {
